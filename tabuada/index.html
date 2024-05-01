@@ -3,13 +3,21 @@
 <head>
     <title>Tabuada</title>
     <meta charset="utf-8">
+    <script src="../tabuada/js/main.js" defer></script>
+    <link rel="stylesheet" href="../tabuada/css/reset.css">
+    <link rel="stylesheet" href="../tabuada/css/style.css">
 </head>
 <body>
-    <h2>Tabuada</h2>
-    <form method="post" action="../tabuada/php/tabuada.php">
-        <label for="numero">Digite um número:</label>
-        <input type="number" name="numero" id="numero" required>
-        <button type="submit">Calcular</button>
-    </form>
+    <div class="tabuada">
+        <h2>Tabuada</h2>
+        <form method="post" action="../tabuada/php/tabuada.php">
+            <label for="numero">Digite um número:</label>
+            <input type="number" name="numero" id="numero" required>
+            <button type="submit">Calcular</button>
+            <button type="button" id="limparBtn">Limpar</button>
+        </form>
+    </div>
+    
+    
 </body>
 </html>

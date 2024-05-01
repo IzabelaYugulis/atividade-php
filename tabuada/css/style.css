@@ -1,0 +1,54 @@
+body {
+    background-color: #F6D9E4; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.tabuada {
+    width: 400px;
+    padding: 20px;
+    background-color: #FFF6F9; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+}
+
+h2 {
+    color: #333; 
+}
+    
+    
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="number"] {
+    padding: 5px;
+    width: calc(100% - 10px);
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #FF6B9E; 
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    width: calc(100% - 10px);
+}
+
+button:hover {
+    background-color: #FF4C82; 
+}
+
